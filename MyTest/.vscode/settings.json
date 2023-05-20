@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "gd32f10x.h": "c",
+        "main.h": "c",
+        "myuart1.h": "c",
+        "cstddef": "c",
+        "limits": "c",
+        "type_traits": "c",
+        "time.h": "c"
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Disabled", //需要添加的
+    "C_Cpp.intelliSenseEngine": "Tag Parser",  //  需要添加的
+}

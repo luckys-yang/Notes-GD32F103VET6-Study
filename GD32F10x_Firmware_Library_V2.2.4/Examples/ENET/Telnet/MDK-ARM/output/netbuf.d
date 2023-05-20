@@ -1,0 +1,14 @@
+.\output\netbuf.o: ..\lwip-2.0.2\src\api\netbuf.c
+.\output\netbuf.o: ..\lwip-2.0.2\src\include\lwip/opt.h
+.\output\netbuf.o: ..\inc\lwipopts.h
+.\output\netbuf.o: ..\lwip-2.0.2\src\include\lwip/debug.h
+.\output\netbuf.o: ..\lwip-2.0.2\src\include\lwip/arch.h
+.\output\netbuf.o: ..\lwip-2.0.2\port\GD32F10x\arch/cc.h
+.\output\netbuf.o: ..\lwip-2.0.2\port\GD32F10x\arch/cpu.h
+.\output\netbuf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\netbuf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\netbuf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\netbuf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\netbuf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\output\netbuf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\netbuf.o: ..\lwip-2.0.2\src\include\lwip/opt.h

@@ -1,0 +1,37 @@
+./objects/myadc.o: APP\myADC\myADC.c APP\myADC\myADC.h APP\ALL\AllHead.h \
+  Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h \
+  Libraries\CMSIS\core_cm3.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  Libraries\CMSIS\core_cmInstr.h Libraries\CMSIS\core_cmFunc.h \
+  Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h \
+  User\gd32f10x_libopt.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h \
+  User\systick.h User\main.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h APP\myLED\myLED.h \
+  APP\myKEY\myKEY.h APP\myUART\myUart1.h APP\myTIMEER\myTIMER.h \
+  APP\myADC\myADC.h APP\myRTC\myRTC.h APP\myDOG\myDOG.h

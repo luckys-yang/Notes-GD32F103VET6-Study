@@ -1,0 +1,1200 @@
+Dependencies for Project 'Template', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\User\gd32f10x_it.c)(0x6460A1A0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_it.o -MD)
+I (User\gd32f10x_it.h)(0x63B3D74F)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+I (User\main.h)(0x6459A203)
+I (User\systick.h)(0x63B3D74F)
+F (.\User\main.c)(0x6463053F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/main.o -MD)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+I (User\systick.h)(0x63B3D74F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (User\main.h)(0x6459A203)
+I (APP\ALL\AllHead.h)(0x646231A7)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (APP\myLED\myLED.h)(0x645D91BC)
+I (APP\myKEY\myKEY.h)(0x645F887B)
+I (APP\myUART\myUart1.h)(0x6460B6BD)
+I (APP\myTIMEER\myTIMER.h)(0x64603EC9)
+I (APP\myADC\myADC.h)(0x6461D5B0)
+I (APP\myRTC\myRTC.h)(0x64620B78)
+I (APP\myDOG\myDOG.h)(0x6462CF8D)
+F (.\User\systick.c)(0x63B3D74F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/systick.o -MD)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+I (User\systick.h)(0x63B3D74F)
+F (.\User\gd32f10x_libopt.h)(0x61BAAA8E)()
+F (.\APP\myLED\myLED.c)(0x645D91BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/myled.o -MD)
+I (APP\myLED\myLED.h)(0x645D91BC)
+I (APP\ALL\AllHead.h)(0x646231A7)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+I (User\systick.h)(0x63B3D74F)
+I (User\main.h)(0x6459A203)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (APP\myKEY\myKEY.h)(0x645F887B)
+I (APP\myUART\myUart1.h)(0x6460B6BD)
+I (APP\myTIMEER\myTIMER.h)(0x64603EC9)
+I (APP\myADC\myADC.h)(0x6461D5B0)
+I (APP\myRTC\myRTC.h)(0x64620B78)
+I (APP\myDOG\myDOG.h)(0x6462CF8D)
+F (.\APP\myKEY\myKEY.c)(0x6460B9D1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/mykey.o -MD)
+I (APP\myKEY\myKEY.h)(0x645F887B)
+I (APP\ALL\AllHead.h)(0x646231A7)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+I (User\systick.h)(0x63B3D74F)
+I (User\main.h)(0x6459A203)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (APP\myLED\myLED.h)(0x645D91BC)
+I (APP\myUART\myUart1.h)(0x6460B6BD)
+I (APP\myTIMEER\myTIMER.h)(0x64603EC9)
+I (APP\myADC\myADC.h)(0x6461D5B0)
+I (APP\myRTC\myRTC.h)(0x64620B78)
+I (APP\myDOG\myDOG.h)(0x6462CF8D)
+F (.\APP\myUART\myUart1.c)(0x646211A0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/myuart1.o -MD)
+I (APP\myUART\myUart1.h)(0x6460B6BD)
+I (APP\ALL\AllHead.h)(0x646231A7)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+I (User\systick.h)(0x63B3D74F)
+I (User\main.h)(0x6459A203)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (APP\myLED\myLED.h)(0x645D91BC)
+I (APP\myKEY\myKEY.h)(0x645F887B)
+I (APP\myTIMEER\myTIMER.h)(0x64603EC9)
+I (APP\myADC\myADC.h)(0x6461D5B0)
+I (APP\myRTC\myRTC.h)(0x64620B78)
+I (APP\myDOG\myDOG.h)(0x6462CF8D)
+F (.\APP\myTIMEER\myTIMER.c)(0x64623280)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/mytimer.o -MD)
+I (APP\myTIMEER\myTIMER.h)(0x64603EC9)
+I (APP\ALL\AllHead.h)(0x646231A7)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+I (User\systick.h)(0x63B3D74F)
+I (User\main.h)(0x6459A203)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (APP\myLED\myLED.h)(0x645D91BC)
+I (APP\myKEY\myKEY.h)(0x645F887B)
+I (APP\myUART\myUart1.h)(0x6460B6BD)
+I (APP\myADC\myADC.h)(0x6461D5B0)
+I (APP\myRTC\myRTC.h)(0x64620B78)
+I (APP\myDOG\myDOG.h)(0x6462CF8D)
+F (.\APP\myADC\myADC.c)(0x6461DD20)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/myadc.o -MD)
+I (APP\myADC\myADC.h)(0x6461D5B0)
+I (APP\ALL\AllHead.h)(0x646231A7)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+I (User\systick.h)(0x63B3D74F)
+I (User\main.h)(0x6459A203)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (APP\myLED\myLED.h)(0x645D91BC)
+I (APP\myKEY\myKEY.h)(0x645F887B)
+I (APP\myUART\myUart1.h)(0x6460B6BD)
+I (APP\myTIMEER\myTIMER.h)(0x64603EC9)
+I (APP\myRTC\myRTC.h)(0x64620B78)
+I (APP\myDOG\myDOG.h)(0x6462CF8D)
+F (.\APP\myRTC\myRTC.c)(0x6462F813)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/myrtc.o -MD)
+I (APP\myRTC\myRTC.h)(0x64620B78)
+I (APP\ALL\AllHead.h)(0x646231A7)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+I (User\systick.h)(0x63B3D74F)
+I (User\main.h)(0x6459A203)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (APP\myLED\myLED.h)(0x645D91BC)
+I (APP\myKEY\myKEY.h)(0x645F887B)
+I (APP\myUART\myUart1.h)(0x6460B6BD)
+I (APP\myTIMEER\myTIMER.h)(0x64603EC9)
+I (APP\myADC\myADC.h)(0x6461D5B0)
+I (APP\myDOG\myDOG.h)(0x6462CF8D)
+F (.\APP\myDOG\myDog.c)(0x6462F80A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/mydog.o -MD)
+I (APP\myDOG\myDOG.h)(0x6462CF8D)
+I (APP\ALL\AllHead.h)(0x646231A7)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+I (User\systick.h)(0x63B3D74F)
+I (User\main.h)(0x6459A203)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (APP\myLED\myLED.h)(0x645D91BC)
+I (APP\myKEY\myKEY.h)(0x645F887B)
+I (APP\myUART\myUart1.h)(0x6460B6BD)
+I (APP\myTIMEER\myTIMER.h)(0x64603EC9)
+I (APP\myADC\myADC.h)(0x6461D5B0)
+I (APP\myRTC\myRTC.h)(0x64620B78)
+F (.\Libraries\CMSIS\GD\GD32F10x\Source\system_gd32f10x.c)(0x6458B01A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/system_gd32f10x.o -MD)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_adc.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_adc.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_bkp.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_bkp.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_can.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_can.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_crc.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_crc.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_dac.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_dac.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_dbg.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_dbg.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_dma.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_dma.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_enet.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_enet.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_exmc.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_exmc.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_exti.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_exti.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_fmc.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_fmc.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_fwdgt.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_fwdgt.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_gpio.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_gpio.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_i2c.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_i2c.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_misc.c)(0x645C895D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_misc.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_pmu.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_pmu.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_rcu.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_rcu.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_rtc.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_rtc.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_sdio.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_sdio.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_spi.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_spi.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_timer.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_timer.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_usart.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_usart.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\GD32F10x_standard_peripheral\Source\gd32f10x_wwdgt.c)(0x63B3D741)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Libraries/CMSIS/GD/GD32F10x/Include -I ./Libraries/CMSIS -I ./Libraries/GD32F10x_standard_peripheral/Include -I ./User -I ./APP/myKEY -I ./APP/myLED -I ./APP/ALL -I ./APP/myUART -I ./APP/myTIMEER -I ./APP/myADC -I ./APP/myRTC -I ./APP/myDOG-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="536" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./objects/gd32f10x_wwdgt.o -MD)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cm3.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (Libraries\CMSIS\core_cmInstr.h)(0x63B3D741)
+I (Libraries\CMSIS\core_cmFunc.h)(0x63B3D741)
+I (Libraries\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x63B3D741)
+I (User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x645E3DFE)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x63B3D741)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x63B3D741)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (Libraries\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x63B3D741)
+F (.\Libraries\CMSIS\GD\GD32F10x\Source\ARM\startup_gd32f10x_hd.s)(0x63B3D741)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-IC:/Users/44478/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"GD32F10X_HD SETA 1" -Wa,armasm,--pd,"USE_STDPERIPH_DRIVER SETA 1"-o ./objects/startup_gd32f10x_hd.o)

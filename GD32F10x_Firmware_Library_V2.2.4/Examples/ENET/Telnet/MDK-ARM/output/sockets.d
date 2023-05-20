@@ -1,0 +1,14 @@
+.\output\sockets.o: ..\lwip-2.0.2\src\api\sockets.c
+.\output\sockets.o: ..\lwip-2.0.2\src\include\lwip/opt.h
+.\output\sockets.o: ..\inc\lwipopts.h
+.\output\sockets.o: ..\lwip-2.0.2\src\include\lwip/debug.h
+.\output\sockets.o: ..\lwip-2.0.2\src\include\lwip/arch.h
+.\output\sockets.o: ..\lwip-2.0.2\port\GD32F10x\arch/cc.h
+.\output\sockets.o: ..\lwip-2.0.2\port\GD32F10x\arch/cpu.h
+.\output\sockets.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\sockets.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\sockets.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\sockets.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\sockets.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\output\sockets.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\sockets.o: ..\lwip-2.0.2\src\include\lwip/opt.h

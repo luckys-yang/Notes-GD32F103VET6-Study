@@ -1,0 +1,14 @@
+.\output\netifapi.o: ..\lwip-2.0.2\src\api\netifapi.c
+.\output\netifapi.o: ..\lwip-2.0.2\src\include\lwip/opt.h
+.\output\netifapi.o: ..\inc\lwipopts.h
+.\output\netifapi.o: ..\lwip-2.0.2\src\include\lwip/debug.h
+.\output\netifapi.o: ..\lwip-2.0.2\src\include\lwip/arch.h
+.\output\netifapi.o: ..\lwip-2.0.2\port\GD32F10x\arch/cc.h
+.\output\netifapi.o: ..\lwip-2.0.2\port\GD32F10x\arch/cpu.h
+.\output\netifapi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\netifapi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\netifapi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\netifapi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\netifapi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\output\netifapi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\netifapi.o: ..\lwip-2.0.2\src\include\lwip/opt.h

@@ -1,0 +1,16 @@
+.\output\def.o: ..\lwip-2.0.2\src\core\def.c
+.\output\def.o: ..\lwip-2.0.2\src\include\lwip/opt.h
+.\output\def.o: ..\inc\lwipopts.h
+.\output\def.o: ..\lwip-2.0.2\src\include\lwip/debug.h
+.\output\def.o: ..\lwip-2.0.2\src\include\lwip/arch.h
+.\output\def.o: ..\lwip-2.0.2\port\GD32F10x\arch/cc.h
+.\output\def.o: ..\lwip-2.0.2\port\GD32F10x\arch/cpu.h
+.\output\def.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\def.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\def.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\def.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\def.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\output\def.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\def.o: ..\lwip-2.0.2\src\include\lwip/opt.h
+.\output\def.o: ..\lwip-2.0.2\src\include\lwip/def.h
+.\output\def.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

@@ -1,0 +1,15 @@
+.\output\netdb.o: ..\lwip-2.0.2\src\api\netdb.c
+.\output\netdb.o: ..\lwip-2.0.2\src\include\lwip/netdb.h
+.\output\netdb.o: ..\lwip-2.0.2\src\include\lwip/opt.h
+.\output\netdb.o: ..\inc\lwipopts.h
+.\output\netdb.o: ..\lwip-2.0.2\src\include\lwip/debug.h
+.\output\netdb.o: ..\lwip-2.0.2\src\include\lwip/arch.h
+.\output\netdb.o: ..\lwip-2.0.2\port\GD32F10x\arch/cc.h
+.\output\netdb.o: ..\lwip-2.0.2\port\GD32F10x\arch/cpu.h
+.\output\netdb.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\netdb.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\netdb.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\netdb.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\netdb.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\output\netdb.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\output\netdb.o: ..\lwip-2.0.2\src\include\lwip/opt.h
